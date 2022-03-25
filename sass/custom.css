@@ -19289,4 +19289,16 @@ a.nav-link:hover {
   border: 1px solid transparent;
   color: #FA5959;
 }
+
+@media (min-width: 768px) {
+  #tarjetas .card:nth-child(2) {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #tarjetas .card:nth-child(3) {
+    margin-top: 40px;
+  }
+}
 /*# sourceMappingURL=custom.css.map */
