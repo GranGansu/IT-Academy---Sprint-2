@@ -1,0 +1,50 @@
+
+li.nav-item a,
+p {
+  color: gray;
+}
+.fit-content {
+  width: fit-content;
+}
+.container {
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+* {
+  font-family: Rubik;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+.azul {
+  background-color: lighten($primary, 5%);
+  border-radius: 0% 0% 0% 24%;
+  position: absolute;
+  bottom: 0px;
+  left: 17%;
+  height: 73%;
+  z-index: -1;
+  width: 200%;
+}
+.azul-izq {
+  border-radius: 0% 31% 34% 0%;
+  bottom: -19px;
+  left: -124%;
+  height: 84%;
+}
+
+div > img {
+  width: auto;
+  z-index: 9999;
+  max-height: 300px;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+ul.nav.nav-tabs.container {
+    width: 100%;
+  }
