@@ -1,0 +1,9 @@
+.tab-content > .active {
+    display: flex;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    border: 1px solid transparent;
+    border-bottom: 4px solid red !important;
+    font-weight: bold;
+}
