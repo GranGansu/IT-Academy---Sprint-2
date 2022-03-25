@@ -19193,4 +19193,69 @@ div .card:last-child {
   -webkit-filter: hue-rotate(134deg);
           filter: hue-rotate(134deg);
 }
+
+footer > div:last-child {
+  background-color: #0f1958;
+}
+
+.invalid-feedback {
+  position: absolute;
+  background: red;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  bottom: -27px;
+  padding: 10px 0px 5px 0px;
+  z-index: 0;
+  width: 100%;
+  font-size: small;
+}
+
+.email {
+  z-index: 1;
+  width: 100%;
+  position: inherit;
+}
+
+#feature-ul {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#feature-ul li a {
+  padding: 15px 35px;
+}
+
+@media (max-width: 768px) {
+  #feature-ul {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #feature-ul li {
+    margin-right: 0px;
+    border-bottom: 1px solid gainsboro;
+  }
+}
+
+footer ul li,
+#navbarNav ul li {
+  margin-right: 25px;
+}
+
+footer ul li:last-child,
+#navbarNav ul li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  footer ul li,
+  #navbarNav ul li {
+    margin: 0px;
+  }
+}
 /*# sourceMappingURL=custom.css.map */
