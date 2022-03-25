@@ -19183,4 +19183,14 @@ div .card:last-child {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
+
+.accordion-button::after {
+  background-image: url(../img/icon-arrow.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../img/icon-arrow.svg);
+  -webkit-filter: hue-rotate(134deg);
+          filter: hue-rotate(134deg);
+}
 /*# sourceMappingURL=custom.css.map */
