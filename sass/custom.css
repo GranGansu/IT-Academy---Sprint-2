@@ -19258,4 +19258,35 @@ footer ul li:last-child,
     margin: 0px;
   }
 }
+
+.btn {
+  border: 2px solid transparent;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 2px solid;
+  color: #172583;
+}
+
+.btn-primary:hover {
+  color: #5265E1;
+}
+
+.btn-danger a {
+  color: white !important;
+}
+
+.btn-danger a:hover, .btn-danger:hover {
+  color: #FA5959 !important;
+}
+
+a.nav-link:hover {
+  color: #FA5959 !important;
+}
+
+.nav-tabs .nav-link:hover:not(.active) {
+  border: 1px solid transparent;
+  color: #FA5959;
+}
 /*# sourceMappingURL=custom.css.map */
