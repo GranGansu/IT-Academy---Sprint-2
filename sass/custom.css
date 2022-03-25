@@ -19128,4 +19128,17 @@ div > img {
 ul.nav.nav-tabs.container {
   width: 100%;
 }
+
+.tab-content > .active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  border: 1px solid transparent;
+  border-bottom: 4px solid red !important;
+  font-weight: bold;
+}
 /*# sourceMappingURL=custom.css.map */
