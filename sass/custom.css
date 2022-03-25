@@ -19141,4 +19141,46 @@ ul.nav.nav-tabs.container {
   border-bottom: 4px solid red !important;
   font-weight: bold;
 }
+
+.card-img,
+.card-img-top {
+  width: auto;
+  max-height: 130px;
+  margin: 20px auto auto auto;
+}
+
+div .card {
+  width: 18rem;
+  border: none;
+  margin-right: 20px;
+  height: 330px;
+}
+
+div .card hr {
+  border-bottom: 6px dotted gray;
+  color: transparent;
+}
+
+div .card:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  div .card {
+    margin-right: 0px;
+  }
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
 /*# sourceMappingURL=custom.css.map */

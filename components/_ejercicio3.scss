@@ -1,0 +1,29 @@
+.card-img,
+.card-img-top {
+  width: auto;
+  max-height: 130px;
+  margin: 20px auto auto auto;
+}
+
+div .card {
+  width: 18rem;
+  border: none;
+  margin-right: 20px;
+  height: 330px;
+  hr {
+    border-bottom: 6px dotted gray;
+    color: transparent;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  @media (max-width: 768px) {
+    margin-right: 0px;
+  }
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
